@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Routes from './Routes/Routes';
 
 import Theme from './Styles/Theme/Theme'
 import GlobalStyle from './Styles/GlobalStyle/GlobalStyle'
@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>    
     <Theme>
       <GlobalStyle />
-      <App />
+      <Routes />
     </Theme>    
   </React.StrictMode>,
   document.getElementById('root')

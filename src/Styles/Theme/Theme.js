@@ -10,10 +10,11 @@ const theme = {
         grayExtraLight: '#F5F5F5'
     },
     fontFamily: 'Montserrat',
-    fontSizes: {
-        small: '1em',
-        medium: '2em',
-        large: '3em'
+    sizes: {
+        extraSmall: '12px',
+        small: '16px',
+        medium: '24px',
+        large: '36px'
     }
 }
 
